@@ -7,12 +7,6 @@
       "id": 1
     },
     {
-      "email": "",
-      "username": "",
-      "password": "",
-      "id": 2
-    },
-    {
       "email": "test@gmail.com",
       "username": "Prince Dev",
       "password": "fs",
@@ -23,6 +17,12 @@
       "username": "admin@gmail.com",
       "password": "asdas",
       "id": 4
+    },
+    {
+      "email": "prince@gmail.com",
+      "username": "Prince Dev",
+      "password": "1234567",
+      "id": 5
     }
   ],
   "restaurants": [],

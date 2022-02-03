@@ -68,8 +68,10 @@
 						</button>
 						<!-- </form> -->
 						<p class="mt-4">
-							have an account ? &nbsp;
-							<a href="/" class="text-blue-600 hover:underline"> Login </a>
+							Already have an account ? &nbsp;
+							<router-link to="/" class="text-blue-600 hover:underline">
+								Login
+							</router-link>
 						</p>
 
 						<hr class="my-8" />
@@ -88,8 +90,6 @@
 			let user = localStorage.getItem("user-info");
 			if (user) {
 				this.$router.push({ name: "Dashboard" });
-			} else {
-				this.$router.push({ name: "SignIn" });
 			}
 		},
 		data() {
