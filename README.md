@@ -1,5 +1,9 @@
 # restaurant-app
 
+## Resources 
+- Json Server
+- Axios
+- 
 ## Project setup
 ```
 npm install
