@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "email": "test@gmail.com",
+      "username": "Prince Dev",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "email": "",
+      "username": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "email": "test@gmail.com",
+      "username": "Prince Dev",
+      "password": "fs",
+      "id": 3
+    },
+    {
+      "email": "kal@gmail.com",
+      "username": "admin@gmail.com",
+      "password": "asdas",
+      "id": 4
+    }
+  ],
+  "restaurants": [],
+  "orders": []
+}
