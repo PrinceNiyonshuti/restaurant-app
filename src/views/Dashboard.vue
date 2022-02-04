@@ -2,6 +2,7 @@
 
 <template>
 	<div class="h-screen bg-gray-100">
+		<NavBar/>
 		<div class="px-2">
 			<div class="container mx-auto">
 				<div class="button-container flex flex-wrap justify-between mb-2">
@@ -18,7 +19,7 @@
 								onChange="{handleSearch}"
 								type="text"
 								class="px-4 py-2 w-80"
-								placeholder="Search Movie...."
+								placeholder="Search Restaurants...."
 							/>
 							<button
 								onClick="{searchMovie}"
@@ -45,7 +46,7 @@
 								placeholder="Movie Genre"
 								required
 							>
-								<option value="all">-- Choose Category --</option>
+								<option value="all">-- Choose City --</option>
 								<option value="Action">Action</option>
 								<option value="Commedy">Commedy</option>
 								<option value="Sci-Fi">Sci-Fi</option>
@@ -63,8 +64,13 @@
 	</div>
 </template>
 <script>
+import NavBar from '../components/NavBar.vue'
 	export default {
 		name: "Dashboard",
+		components:{
+			NavBar
+		}
+		,
 		mounted() {
 			let user = localStorage.getItem("user-info");
 			if (!user) {
