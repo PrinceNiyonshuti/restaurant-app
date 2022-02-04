@@ -2,7 +2,7 @@
 
 <template>
 	<div class="h-screen bg-gray-100">
-		<NavBar/>
+		<NavBar />
 		<div class="px-2">
 			<div class="container mx-auto">
 				<div class="button-container flex flex-wrap justify-between mb-2">
@@ -57,22 +57,27 @@
 					</div>
 				</div>
 				<div>
-					<h1>Hello user , welcome back</h1>
+					<h1>Hello {{ username }} , welcome back</h1>
 				</div>
 			</div>
 		</div>
 	</div>
 </template>
 <script>
-import NavBar from '../components/NavBar.vue'
+	import NavBar from "../components/NavBar.vue";
 	export default {
 		name: "Dashboard",
-		components:{
-			NavBar
-		}
-		,
+		components: {
+			NavBar,
+		},
+		data() {
+			return {
+				username: "",
+			};
+		},
 		mounted() {
 			let user = localStorage.getItem("user-info");
+			this.username = JSON.parse(user).username;
 			if (!user) {
 				this.$router.push({ name: "SignIn" });
 			}

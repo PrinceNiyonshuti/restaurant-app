@@ -4,6 +4,8 @@ import { createRouter, createWebHistory } from "vue-router";
 import Dashboard from "../views/Dashboard.vue";
 import SignUp from "../views/SignUp.vue";
 import SignIn from "../views/SignIn.vue";
+import AddRestaurant from "../views/AddRestaurant.vue";
+import UpdateRestaurant from "../views/UpdateRestaurant.vue";
 
 const routes = [
 	{
@@ -20,6 +22,16 @@ const routes = [
 		path: "/dashboard",
 		name: "Dashboard",
 		component: Dashboard,
+	},
+	{
+		path: "/add",
+		name: "AddRestaurant",
+		component: AddRestaurant,
+	},
+	{
+		path: "/update",
+		name: "UpdateRestaurant",
+		component: UpdateRestaurant,
 	},
 ];
 

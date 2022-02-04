@@ -39,6 +39,18 @@
 							>
 								All Restaurants
 							</router-link>
+							<router-link
+								to="/add"
+								className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+							>
+								Add Restaurants
+							</router-link>
+							<router-link
+								to="/update"
+								className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+							>
+								Orders Restaurants
+							</router-link>
 							<span
 								@click="logOut"
 								className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -83,11 +95,6 @@
 				localStorage.clear();
 				this.$router.push({ name: "SignIn" });
 			},
-		},
-		data() {
-			return {
-				profile: [],
-			};
-		},
+		}
 	};
 </script>
