@@ -1,35 +1,35 @@
 {
-  "users": [
-    {
-      "email": "test@gmail.com",
-      "username": "Prince Dev",
-      "password": "1234",
-      "id": 1
-    },
-    {
-      "email": "test@gmail.com",
-      "username": "Prince Dev",
-      "password": "fs",
-      "id": 3
-    },
-    {
-      "email": "kal@gmail.com",
-      "username": "admin@gmail.com",
-      "password": "asdas",
-      "id": 4
-    },
-    {
-      "email": "prince@gmail.com",
-      "username": "Prince Dev",
-      "password": "1234567",
-      "id": 5
-    }
-  ],
-  "restaurants": [
+	"users": [
+		{
+			"email": "test@gmail.com",
+			"username": "Prince Dev",
+			"password": "1234",
+			"id": 1
+		},
+		{
+			"email": "test@gmail.com",
+			"username": "Prince Dev",
+			"password": "fs",
+			"id": 3
+		},
+		{
+			"email": "kal@gmail.com",
+			"username": "admin@gmail.com",
+			"password": "asdas",
+			"id": 4
+		},
+		{
+			"email": "prince@gmail.com",
+			"username": "Prince Dev",
+			"password": "1234567",
+			"id": 5
+		}
+	],
+	"restaurants": [
 		{
 			"photo": "https://media.istockphoto.com/photos/delicious-meal-picture-id1295387240?s=612x612",
 			"name": "UMUT",
-			"description": "Prince Dev",
+			"description": "Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Pellentesque in ipsum id orci porta dapibus.",
 			"location": "Prince Dev",
 			"price_range": "1234567",
 			"tel": "1234567",
@@ -39,7 +39,7 @@
 		{
 			"photo": "https://media.istockphoto.com/photos/delicious-meal-picture-id1295387240?s=612x612",
 			"name": "Camelia",
-			"description": "Prince Dev",
+			"description": "Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Pellentesque in ipsum id orci porta dapibus.",
 			"location": "Prince Dev",
 			"price_range": "1234567",
 			"tel": "1234567",
@@ -49,7 +49,7 @@
 		{
 			"photo": "https://media.istockphoto.com/photos/delicious-meal-picture-id1295387240?s=612x612",
 			"name": "Mummy Cousine",
-			"description": "Prince Dev",
+			"description": "Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Pellentesque in ipsum id orci porta dapibus.",
 			"location": "Prince Dev",
 			"price_range": "1234567",
 			"tel": "1234567",
@@ -59,7 +59,7 @@
 		{
 			"photo": "https://media.istockphoto.com/photos/delicious-meal-picture-id1295387240?s=612x612",
 			"name": "THe Hub",
-			"description": "Prince Dev",
+			"description": "Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Pellentesque in ipsum id orci porta dapibus.",
 			"location": "Prince Dev",
 			"price_range": "1234567",
 			"tel": "1234567",
@@ -67,5 +67,5 @@
 			"id": 1
 		}
 	],
-  "orders": []
+	"orders": []
 }

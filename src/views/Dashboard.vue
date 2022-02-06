@@ -60,7 +60,7 @@
 					<h1>Hello {{ username }} , welcome back</h1>
 					<div class="container mx-auto">
 						<div class="flex flex-wrap -mx-4">
-							<Restaurant/>
+							<Restaurant :restaurant="restaurants"/>
 						</div>
 					</div>
 				</div>
@@ -69,6 +69,7 @@
 	</div>
 </template>
 <script>
+	import axios from "axios";
 	import NavBar from "../components/NavBar.vue";
 	import Restaurant from "../components/Restaurant.vue";
 	export default {
@@ -80,14 +81,20 @@
 		data() {
 			return {
 				username: "",
+				restaurants: [],
 			};
 		},
-		mounted() {
+		async mounted() {
 			let user = localStorage.getItem("user-info");
 			this.username = JSON.parse(user).username;
 			if (!user) {
 				this.$router.push({ name: "SignIn" });
 			}
+
+			// get restaurants
+			let result = await axios.get("http://localhost:3000/restaurants");
+			console.log(result);
+			this.restaurants = result.data;
 		},
 	};
 </script>
