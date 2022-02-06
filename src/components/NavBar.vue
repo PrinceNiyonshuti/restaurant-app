@@ -21,12 +21,12 @@
 						<router-link to="/Dashboard">
 							<img
 								className="block lg:hidden h-8 w-auto"
-								src="../assets/logo.png"
+								src="../assets/icon.jpg"
 								alt="Movie App"
 							/>
 							<img
 								className="hidden lg:block h-8 w-auto"
-								src="../assets/logo.png"
+								src="../assets/icon.jpg"
 								alt="Movie App"
 							/>
 						</router-link>

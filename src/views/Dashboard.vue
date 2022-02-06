@@ -60,7 +60,7 @@
 					<h1>Hello {{ username }} , welcome back</h1>
 					<div class="container mx-auto">
 						<div class="flex flex-wrap -mx-4">
-							<Restaurant :restaurant="restaurants"/>
+							<Restaurant :restaurant="restaurants" />
 						</div>
 					</div>
 				</div>

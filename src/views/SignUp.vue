@@ -16,7 +16,7 @@
 						<div class="flex justify-center">
 							<img
 								class="object-cover w-1/4 h-1/4"
-								src="../assets/logo.png"
+								src="../assets/icon.jpg"
 								alt="Movie App Logo"
 							/>
 						</div>
