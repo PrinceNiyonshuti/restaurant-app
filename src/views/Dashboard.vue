@@ -1,7 +1,7 @@
 <!-- @format -->
 
 <template>
-	<div class="h-screen bg-gray-100">
+	<div class="bg-gray-100">
 		<NavBar />
 		<div class="px-2">
 			<div class="container mx-auto">
@@ -56,8 +56,13 @@
 						</div>
 					</div>
 				</div>
-				<div>
+				<div class="flex-wrap">
 					<h1>Hello {{ username }} , welcome back</h1>
+					<div class="container mx-auto">
+						<div class="flex flex-wrap -mx-4">
+							<Restaurant/>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -65,10 +70,12 @@
 </template>
 <script>
 	import NavBar from "../components/NavBar.vue";
+	import Restaurant from "../components/Restaurant.vue";
 	export default {
 		name: "Dashboard",
 		components: {
 			NavBar,
+			Restaurant,
 		},
 		data() {
 			return {
