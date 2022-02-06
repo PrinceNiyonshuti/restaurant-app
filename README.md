@@ -3,7 +3,6 @@
 ## Resources 
 - Json Server
 - Axios
-- 
 ## Project setup
 ```
 npm install
@@ -23,6 +22,7 @@ npm run build
 ```
 npm run lint
 ```
+## Links
+[Deployed Frontend](https://restaurant-staging.netlify.app/)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[Deployed Backend](#)
