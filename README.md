@@ -1,5 +1,5 @@
 # restaurant-app
-
+the vue project consuming json server api data 
 ## Resources 
 - Json Server
 - Axios
