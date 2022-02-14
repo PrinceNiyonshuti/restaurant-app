@@ -3,6 +3,7 @@ the vue project consuming json server api data
 ## Resources 
 - Json Server
 - Axios
+- Vue 3
 ## Project setup
 ```
 npm install
