@@ -1,4 +1,4 @@
-# restaurant-app
+# Restaurant
 the vue project consuming json server api data 
 ## Resources 
 - Json Server
