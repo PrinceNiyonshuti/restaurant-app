@@ -1,5 +1,6 @@
 # Restaurant
-the vue project consuming json server api data 
+Restaurant app is built on the top of Vue Js consuming json server api data and have full authentication using json server
+
 ## Resources 
 - Json Server
 - Axios
