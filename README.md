@@ -1,4 +1,4 @@
-# Restaurant
+# Restaurant App
 Restaurant app is built on the top of Vue Js consuming json server api data and have full authentication using json server
 
 ## Resources 
